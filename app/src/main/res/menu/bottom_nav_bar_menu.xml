@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/recipeFragment"
+        android:icon="@drawable/ic_menu_book"
+        android:title="@string/recipes"/>
+
+    <item android:id="@+id/favoriteRecipeFragment"
+        android:icon="@drawable/ic_star"
+        android:title="@string/favorites"/>
+
+    <item android:id="@+id/jokesFragment"
+        android:icon="@drawable/ic_jokes"
+        android:title="@string/jokes"/>
+
+</menu>
