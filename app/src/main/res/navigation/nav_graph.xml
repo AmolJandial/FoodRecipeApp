@@ -9,7 +9,15 @@
         android:id="@+id/recipeFragment"
         android:name="com.example.foodrecipeapp.ui.fragments.recipe.RecipeFragment"
         android:label="@string/recipes"
-        tools:layout="@layout/fragment_recipe" />
+        tools:layout="@layout/fragment_recipe" >
+
+
+        <action
+            android:id="@+id/action_recipeFragment_to_recipesBottomSheet"
+            app:destination="@id/recipesBottomSheet" />
+
+
+    </fragment>
     <fragment
         android:id="@+id/favoriteRecipeFragment"
         android:name="com.example.foodrecipeapp.ui.fragments.favorite.FavoriteRecipeFragment"
@@ -20,4 +28,13 @@
         android:name="com.example.foodrecipeapp.ui.fragments.jokes.JokesFragment"
         android:label="@string/jokes"
         tools:layout="@layout/fragment_jokes" />
+    <dialog
+        android:id="@+id/recipesBottomSheet"
+        tools:layout="@layout/recipes_bottom_sheet"
+        android:name="com.example.foodrecipeapp.ui.fragments.recipe.bottomsheet.RecipesBottomSheet"
+        android:label="RecipesBottomSheet" >
+        <action
+            android:id="@+id/action_recipesBottomSheet_to_recipeFragment"
+            app:destination="@id/recipeFragment" />
+    </dialog>
 </navigation>

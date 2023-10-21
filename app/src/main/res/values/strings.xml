@@ -20,4 +20,16 @@
     <string name="marinade">Marinade</string>
     <string name="finger_food">Finger Food</string>
     <string name="snack">Snack</string>
+    <string name="drink">Drink</string>
+    <string name="diet_type">Diet Type</string>
+    <string name="gluten_free">Gluten Free</string>
+    <string name="ketogenic">Ketogenic</string>
+    <string name="whole30">Whole30</string>
+    <string name="primal">Primal</string>
+    <string name="paleo">Paleo</string>
+    <string name="pescetarian">Pescetarian</string>
+    <string name="vegan">Vegan</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="apply">Apply</string>
+    <string name="search">Search</string>
 </resources>
